@@ -7,7 +7,7 @@ public class NuOneD {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter any number for radius:");
         double R = input.nextDouble();
-        double res =  3.14 *R*R;
+        double res =  Math.PI *R*R;
         System.out.println("Res="+ res);
     }
 }
